@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient( to left, hotpink, lightblue);
+}
+
+.sub-container {
+    width: 30%;
+    height: 100%;
+    /* background-color: rgb(231, 18, 18); */
+    margin: auto;
+}
+
+.text {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient( to top, yellow, lightblue);
+    margin: auto;
+    text-align: center;
+}
+
+.sub-text {
+    height: 100px;
+    width: 100%;
+    /* background-color: aliceblue; */
+    padding-top: 200px;
+    margin: auto;
+}
+
+.sagor {
+    height: 150px;
+    width: 300px;
+    background-color: rgb(85, 16, 247);
+    margin: auto;
+    box-shadow: 9px 8px 8px 7px black;
+    background-image: linear-gradient(lightcoral, green);
+}
+
+.sagor h2 {
+    font-size: 30px;
+    text-transform: capitalize;
+    padding-top: 10px;
+    color: white;
+}
+
+.sagor h2::after {
+    content: " sagor";
+    color: red;
+    font-style: italic;
+}
+
+.sagor p {
+    font-size: 22px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.sagor p::before {
+    content: "load";
+    font-size: 28px;
+    color: yellow;
+}
+
+.sagor p::after {
+    content: "info";
+    font-size: 23px;
+    color: hotpink;
+}
+
+.sagor a {
+    color: black;
+    padding: 10px 20px;
+    background-color: rgb(223, 24, 24);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 50px 0px 50px 0px;
+}
+
+.sagor a:active {
+    color: white;
+    /* background-color: red; */
+}
+
+.sagor a:focus {
+    color: aqua;
+    font-size: 19px;
+}
+
+.sagor a:hover {
+    background-color: gray;
+    color: white;
+}
